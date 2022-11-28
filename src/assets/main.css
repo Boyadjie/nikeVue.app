@@ -6,4 +6,9 @@ html {
   min-height: 100vh;
   margin: 0;
   font-family: "Poppins", sans-serif;
+}
+html body {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
