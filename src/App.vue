@@ -11,7 +11,9 @@
 
 <template>
   <Header></Header>
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>

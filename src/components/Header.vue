@@ -8,10 +8,10 @@
       <router-link to="/"><img src="@/assets/img/logo.svg" alt="Nike logo"></router-link>
     </div>
     <nav>
-      <RouterLink to="/men">Men</RouterLink>
+      <RouterLink to="/">Men</RouterLink>
       <RouterLink to="/women">Women</RouterLink>
       <RouterLink to="/kids">Kids</RouterLink>
-      <RouterLink to="/about">Customise</RouterLink>
+      <RouterLink to="/customise">Customise</RouterLink>
     </nav>
     <div>
       <div id="searchBar">
