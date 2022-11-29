@@ -1,6 +1,22 @@
+<script>
+import ProductHeading from '../components/ProductHeading.vue';
+
+export default {
+    mounted() {
+        document.querySelector("body").classList.add("women");
+    },
+    unmounted() {
+        document.querySelector("body").classList.remove("women");
+    },
+    components: { ProductHeading }
+}
+</script>
+
 <template>
   <div class="women">
-    <h1>Women</h1>
+    <div>
+      <ProductHeading/>
+    </div>
   </div>
 </template>
 

@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-html {
-  // background: linear-gradient(145deg, #21E8C4 5%, #179B93 25%, #267B87 45%, #0F474F ) ;
+
+body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
   font-family: 'Poppins', sans-serif;
 
-  body {
+  &.men {
+    background: linear-gradient(145deg, #21E8C4 5%, #179B93 25%, #267B87 45%, #0F474F ) ;
+  }
+
+  &.women {
+    background: linear-gradient(145deg, #e9bce9 5%, #ce79e2 25%, #9f47b7 45%, #4f0f4a ) ;
+  }
+
+  header, main {
     display: block;
     max-width: 1200px;
     margin: 0 auto;

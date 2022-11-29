@@ -10,7 +10,6 @@
     <nav>
       <RouterLink to="/">Men</RouterLink>
       <RouterLink to="/women">Women</RouterLink>
-      <RouterLink to="/kids">Kids</RouterLink>
       <RouterLink to="/customise">Customise</RouterLink>
     </nav>
     <div>

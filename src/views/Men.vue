@@ -1,16 +1,22 @@
 <script>
 import Shoes from '@/components/templates/Shoes.vue';
+import ProductHeading from '@/components/ProductHeading.vue';
 
-export default {
-    components: { Shoes }
-}
+  export default {
+    components: { Shoes, ProductHeading },
+    mounted() {
+      document.querySelector('body').classList.add("men")
+    },
+    unmounted() {
+      document.querySelector('body').classList.remove("men")
+    },
+  }
 </script>
 
 <template>
   <div class="men">
     <div>
-      <h1>JUST<br>DO<br/>IT</h1>
-      <p>Innovated to withstand your toughest matches, this updated design puts flexible, durable materials exactly where they're needed most.</p>
+      <ProductHeading />
     </div>
 
     <div>
@@ -18,13 +24,14 @@ export default {
         <template #shoe>
           <img src="@/assets/img/nike-h.png" alt="Nike Men">
         </template>
+
+        <template #name>
+          
+        </template>
       </Shoes>
     </div>
   </div>
 </template>
 
 <style scoped>
-html {
-  background-color: linear-gradient(145deg, #d1e821 5%, #9b7c17 25%, #c1380e 45%, #4f0f0f ) ;
-}
 </style>
