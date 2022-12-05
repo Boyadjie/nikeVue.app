@@ -18,7 +18,7 @@
         <input type="search" name="searchbar" placeholder="Search">
       </div>
       <div>
-        <router-link to="/cart"><img src="@/assets/icons/cart.svg" alt="Cart icon"></router-link>
+        <router-link to="/"><img src="@/assets/icons/cart.svg" alt="Cart icon"></router-link>
       </div>
     </div>
   </header>
